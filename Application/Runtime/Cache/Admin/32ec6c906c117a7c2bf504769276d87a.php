@@ -13,26 +13,36 @@ Data:2015/8/10 -->
 
     <title>网站后台登录</title>
 	<link href="/Admin/Public/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/Admin/Public/css/login.css" rel="stylesheet">
+  <style>
+      body{background: #615d5c;}
+      .login-panel{width: 350px;height: 450px;margin-top:150px;margin-left: 66%;background: #fff;color:#000;}
+      .panel-heading{text-align: center;color: #11cd6e;font-size: 20px; padding-top: 40px;}
+      .form-control{ border-radius: 0; height: 40px;margin-top:32px;}
+      .name{ background: url(/Admin/Public/images/ipt-sprite.png) no-repeat;overflow: hidden;background-position: 0 -96px;padding-left: 50px;}
+      .password{ background: url(/Admin/Public/images/ipt-sprite.png) no-repeat;overflow: hidden;background-position: 0 -48px;padding-left: 50px;}
+      .submit{background: #1AB394;border:none; color:#fff;font-size:18px;}
+  </style>
 	<script src="/Admin/Public/js/jquery.min.js"></script>
 	<script src="/Admin/Public/js/bootstrap.min.js"></script>
 
 
 </head>
 <body>
-      <div class="container">
-      	 <div class="row">
-               <div class="col-md-4 col-md-offset-3">
+      <div class="container-fluid-full">
+      	 <div class="row-fluid">
+               <div class="col-md-3 col-md-offset-3">
                	   <div class="login-panel panel default-panel">
                        <div class="panel-heading">管理员登录</div>
                        <div class="panel-body">   
                             <form role="form">
                             	<div class="form-group">
-                            		<label for="name" class="col-sm-4 control-label">用户名</label>
-                            		<div class="col-sm-8">
-                            		    <span class="glyphicon glyphicon-user"></span><input type="text" name="username" id="username" placeholder="请填写用户名"/>
-                            	    </div>
+                                    <input type="text" class="form-control name" id="name" placeholder="请输入您的用户名"/>
                             	</div>
+
+                              <div class="form-group">
+                                    <input type="password" class="form-control password" id="password" placeholder="请输入您的密码"/>
+                              </div>
+                              <input type="submit" class="form-control submit" id="submit" value="登陆" />
                             </form>
                        </div>
                	   </div>
