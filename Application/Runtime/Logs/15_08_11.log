@@ -693,3 +693,18 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
 
+[ 2015-08-11T18:33:49+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-08-11T18:33:49+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-08-11T18:33:50+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+
