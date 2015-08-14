@@ -66,63 +66,52 @@
     </ul>
 
 </div>
-		   <div class="right content">
+             <div class="right content">
                 <div class="right-menu">
-                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>Message</p>
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>Article</p>
                 	<p class="right right-d2">2015-8-13 星期四</p>
                 </div>
-
                 <div class="main">
-                    <div class="panel panel-default">
-                         <div class="panel-heading">
+                <div class="panel panel-default">
+                     <div class="panel-heading">
 					      <h3 class="panel-title">
-					         欢迎admin管理员来到后台首页
+					          <i class="fa  icon-folder-open"></i>
+					         文章管理
 					      </h3>
-					    </div>
-					     <div class="panel-body">
-					          <p>admin管理员，您当前的身份是超级管理员，如果你是第一次登录你的帐号，请点击  <button type="button" class="btn btn-success">修改初始密码</button></p>
-					          <p>在本系统中，你可以进行如下才操作</p>
-					          <ul>
-                                   <li><a href="">
-                                       <img src="/Admin/Public/images/image_add.png"/>
-                                       <p>上传图片</p>
-                                       </a>
-                                   </li>
-                                   <li><a href="">
-                                       <img src="/Admin/Public/images/paper_content.png"/>
-                                       <p>编辑新文章</p>
-                                       </a>
-                                   </li>
-                                   <li><a href="">
-                                       <img src="/Admin/Public/images/disturb.png"/>
-                                       <p>浏览信息</p>
-                                       </a>
-                                   </li>
-                                   <li><a href="">
-                                       <img src="/Admin/Public/images/9.png"/>
-                                       <p>用户管理</p>
-                                       </a>
-                                   </li>
-                                   <li><a href="">
-                                       <img src="/Admin/Public/images/setting.png"/>
-                                       <p>修改个人信息</p>
-                                       </a>
-                                   </li>
-					          </ul>   
-						 </div>
-                    </div>
-                     <div class="panel panel-success">
-                              <div class="panel-heading">
-						      <h3 class="panel-title">
-						          <i class="fa icon-user"></i>后台登陆记录一览
-						      </h3>
-					    	  </div>
-					    	  <table class="table table-bordered table-striped">
-                                      <thead class="top">
+					 </div>
+                     <div class="span6">
+                         <form id="page-select"  class="form-inline" role="form">
+                              每页显示
+                               <select class="form-control">
+						         <option>1</option>
+						         <option>2</option>
+						         <option>3</option>
+						         <option>4</option>
+						         <option>5</option>
+						      </select>
+						      条信息
+                               &nbsp;&nbsp;&nbsp;&nbsp;
+						      搜索选项：
+                              <select class="form-control" style="width:150px;">
+						         <option>标题</option>
+						         <option>上传日期</option>
+						         <option>作者</option>
+						         
+						      </select>
+						      <input type="text" class="form-control" id="search" placeholder="请输入关键词" style="width:500px;"/>
+						      <input type="submit" class="btn btn-success" value="搜索"/>
+                         </form>
+                     </div>
+					  <table class="table table-bordered table-striped border">
+                                        <thead class="top">
 								      <tr>
-								         <th>管理员名</th>
-								         <th>管理权限</th>
-								         <th>登陆时间</th>
+								         <th>#</th>
+								         <th>标题</th>
+								         <th>作者来源</th>
+								         <th>所属栏目</th>
+								         <th>阅读量</th>
+								         <th>添加时间</th>
+								         <th>操作</th>
 								      </tr>
 								   </thead>
 								   <tbody>
@@ -130,33 +119,54 @@
 								         <td>Tanmay</td>
 								         <td>Bangalore</td>
 								         <td>560001</td>
-								      </tr>
+								         <td>Tanmay</td>
+								         <td>Bangalore</td>
+								         <td>560001</td>
+								         <td class="small">
+								           <a class="btn btn-xs btn-success"><i class="icon-edit">编辑</i></a>
+								           <a class="btn btn-xs btn-info"><i class="icon-eye-open">查看</i></a>
+								           <a class="btn btn-xs btn-danger"><i class="icon-trash">删除</i></a>
+								         </td>
 								      <tr>
 								         <td>Sachin</td>
 								         <td>Mumbai</td>
 								         <td>400003</td>
+								         <td>Tanmay</td>
+								         <td>Bangalore</td>
+								         <td>560001</td>
+								         <td class="small">
+								           <a class="btn btn-xs btn-success"><i class="icon-edit">编辑</i></a>
+								           <a class="btn btn-xs btn-info"><i class="icon-eye-open">查看</i></a>
+								           <a class="btn btn-xs btn-danger"><i class="icon-trash">删除</i></a>
+								         </td>
 								      </tr>
 								      <tr>
 								         <td>Uma</td>
 								         <td>Pune</td>
 								         <td>411027</td>
+								         <td>Tanmay</td>
+								         <td>Bangalore</td>
+								         <td>560001</td>
+								         <td class="small">
+								           <a class="btn btn-xs btn-success"><i class="icon-edit">编辑</i></a>
+								           <a class="btn btn-xs btn-info"><i class="icon-eye-open">查看</i></a>
+								           <a class="btn btn-xs btn-danger"><i class="icon-trash">删除</i></a>
+								         </td>
 								      </tr>
 								   </tbody>
-				            </table>
-				            <div class="col-sm-6 right">
-                                 <ul class="pagination right">
-                                  <li><a href="#">Previous</a></li>
+				     </table>
+				      <ul class="pagination right">
+                                  <li><a href="#">&laquo;&nbsp;&nbsp;Previous</a></li>
 								  <li class="active"><a href="#">1</a></li>
 								  <li class="disabled"><a href="#">2</a></li>
 								  <li><a href="#">3</a></li>
 								  <li><a href="#">4</a></li>
 								  <li><a href="#">5</a></li>
-								  <li><a href="#">Next</a></li>
-								</ul>
-						  </div>
-				     </div>
+								  <li><a href="#">Next&nbsp;&nbsp;&raquo;;</a></li>
+					 </ul>
                 </div>
-		   </div>
+               </div>
+             </div>
 		</div>
 		</div>
 		<div class="clearfix"></div>
