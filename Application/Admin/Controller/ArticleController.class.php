@@ -3,7 +3,15 @@
 namespace Admin\Controller;
 use Think\Controller;
 class ArticleController extends Controller {
+	//文章列表
     public function index(){
     	$this->display();
     }
+
+    //添加文章
+    public function add(){
+    	$this->display('add');
+    }
+
+
 }

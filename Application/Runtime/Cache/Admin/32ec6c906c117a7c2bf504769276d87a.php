@@ -15,12 +15,12 @@ Data:2015/8/10 -->
 	<link href="/Admin/Public/css/bootstrap.min.css" rel="stylesheet">
   <style>
       body{background: #615d5c;}
-      .login-panel{width: 350px;height: 450px;margin-top:150px;margin-left: 66%;background: #fff;color:#000;}
+      .login-panel{width: 350px;height: 450px;margin-top:100px;margin-left: 66%;background: #fff;color:#000;}
       .panel-heading{text-align: center;color: #11cd6e;font-size: 20px; padding-top: 40px;}
       .form-control{ border-radius: 0; height: 40px;margin-top:32px;}
       .name{ background: url(/Admin/Public/images/ipt-sprite.png) no-repeat;overflow: hidden;background-position: 0 -96px;padding-left: 50px;}
       .password{ background: url(/Admin/Public/images/ipt-sprite.png) no-repeat;overflow: hidden;background-position: 0 -48px;padding-left: 50px;}
-      .submit{background: #1AB394;border:none; color:#fff;font-size:18px;}
+      .submit{background: #449D44;border:none; color:#fff;font-size:18px;}
   </style>
 	<script src="/Admin/Public/js/jquery.min.js"></script>
 	<script src="/Admin/Public/js/bootstrap.min.js"></script>

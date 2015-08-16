@@ -170,9 +170,8 @@
 		</div>
 		</div>
 		<div class="clearfix"></div>
-		<div class="footer">
+<div class="footer">
 	<p><i class="fa icon-envelope"></i>2632807692@qq.com&nbsp;&nbsp;<a href="https://github.com/SunShinewyf"><i class="fa  icon-github"></i>github</a>&nbsp;&nbsp; © 2015 powered by sunshine</p>
-
 </div>
-	</body>
+</body>
 </html>

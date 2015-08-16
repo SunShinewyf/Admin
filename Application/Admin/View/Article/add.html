@@ -1,0 +1,58 @@
+<include file="Public:header"/>
+      	<div class="container-fluid-full">
+		<div class="row-fluid">
+		   <include file="Public:slider"/>
+		   <div class="right content">
+               <div class="right-menu">
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>Article</p>
+                	<p class="right right-d2">2015-8-13 星期四</p>
+                </div>
+                <div class="main">
+                  <div class="panel panel-default">
+                     <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa  icon-edit"></i>
+					          添加新文章
+					      </h3>
+                     </div>
+					      <form class="form-horizontal" role="form">
+                              <div class="form-group">
+                                 <label class="control-label col-sm-2 control2" for="title">*文章标题：</label>
+                                 <input class="form-control control3" type="text" name="title" id="title" placeholder="请填写文章标题"/>
+                              </div>
+                              <div class="form-group">
+                                 <label class="control-label col-sm-2 control4" for="author">*文章作者/来源：</label>
+                                 <input class="form-control control1" type="text" name="author" id="author" placeholder="请填写文章作者/来源"/>
+                              </div>
+                               <div class="form-group">
+                                 <label class="control-label col-sm-2 control4" for="column">*文章所属栏目：</label>
+                                 <select class="form-control control1" name="column" id="column"/>
+                                     <option value="0">学院动态</option>
+                                     <option value="1">焦点新闻</option>
+                                     <option value="2">用户管理</option>
+                                     <option value="3">专区下载</option>
+                                 </select>
+                              </div>
+                              <div class="form-group">
+                              	   <label class="control-label col-sm-2 control4" for="detail">*文章正文：</label>
+                              	   <textarea class="form-control control5" id="editor" height="400px;"></textarea>
+                              </div>
+                              <div class="form-action">
+                                    <button class="btn btn-primary" type="submit">保存</button>
+                                    <button class="btn btn-primary" type="reset">重置</button>
+                              </div>
+					      </form>
+					</div>
+                </div>
+		   </div>
+		</div>
+	   </div>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/editor/kindeditor.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/editor/lang/zh_CN.js"> </script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/editor/lang/zh-cn/zh-cn.js"></script>
+   <script type="text/javascript">  
+       KindEditor.ready(function(K) {
+                window.editor = K.create('#editor');
+        });
+   </script>
+<include file="Public:footer"/>
