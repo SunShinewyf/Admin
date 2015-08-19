@@ -8,8 +8,7 @@
 	<link href="/Admin/Public/css/font-awesome.min.css" rel="stylesheet">
 	<link href="/Admin/Public/css/base.css" rel="stylesheet">
 	<link href="/Admin/Public/css/admin.css" rel="stylesheet">
-	<script src="/Admin/Public/js/jquery.min.js"></script>
-	<script src="/Admin/Public/js/bootstrap.min.js"></script>
+	
 
 	<body>
 	    <div class="nav-inner">
@@ -159,10 +158,12 @@
 		   </div>
 		</div>
 		</div>
-		<div class="clearfix"></div>
-		<div class="footer">
-	<p><i class="fa icon-envelope"></i>2632807692@qq.com&nbsp;&nbsp;<a href="https://github.com/SunShinewyf"><i class="fa  icon-github"></i>github</a>&nbsp;&nbsp; © 2015 powered by sunshine</p>
+		<script src="/Admin/Public/js/jquery.min.js"></script>
+<script src="/Admin/Public/js/bootstrap.min.js"></script>
 
+<div class="clearfix"></div>
+<div class="footer">
+	<p><i class="fa icon-envelope"></i>2632807692@qq.com&nbsp;&nbsp;<a href="https://github.com/SunShinewyf"><i class="fa  icon-github"></i>github</a>&nbsp;&nbsp; © 2015 powered by sunshine</p>
 </div>
-	</body>
+</body>
 </html>
