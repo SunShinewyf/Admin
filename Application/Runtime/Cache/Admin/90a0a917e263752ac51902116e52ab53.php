@@ -65,48 +65,50 @@
     </ul>
 
 </div>
-		    <div class="right content">
+            <div class="right content">
                 <div class="right-menu">
-                    <p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>Picture</p>
+                	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>column</p>
                 	<p class="right right-d2">2015-8-13 星期四</p>
                 </div>
                 <div class="main">
                 <div class="panel panel-default">
                      <div class="panel-heading">
-                        <h3 class="panel-title">
-					          <i class="fa  icon-cloud-upload"></i>
-					         图片上传
-					    </h3>
-                     </div>
-                     <form class="form-horizontal" role="form">
-                           <div class="form-group">
-                                 <label class="control-label col-sm-2 control2" for="describe">*图片描述：</label>
-                                 <input class="form-control control3" type="text" name="describe" id="describe" placeholder="请填写图片描述"/>
-                           </div>
-                           <div class="form-group">
-                                  <label class="control-label col-sm-2 control2" for="inputfile">文件输入：</label>
-                                  <input type="file"  id="inputfile" class="control2" placeholder="请选择图片">
-                                  <p class="help-block">请务必选择360*230的图片，不超过2MB</p>
-                           </div>
-                                  <button class="btn btn-primary" style="margin-left:250px;margin-bottom:20px;" type="submit">确认上传</button>
-
-                     </form>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
 					      <h3 class="panel-title">
-					          <i class="fa   icon-picture"></i>
-					         图片管理
+					          <i class="fa  icon-reorder"></i>
+					          添加栏目
 					      </h3>
 					 </div>
-					 <table class="table table-bordered table-striped border">
+					  <form class="form-horizontal" role="form">
+                              <div class="form-group">
+                                 <label class="control-label col-sm-2 control2" for="name">*栏目名称：</label>
+                                 <input class="form-control control3" type="text" name="name" id="name" placeholder="请填写栏目名称"/>
+                              </div>
+                               <div class="form-group">
+                                 <label class="control-label col-sm-2 control4" for="parent">*文章所属栏目：</label>
+                                 <select class="form-control control1" name="parent" id="parent"/>
+                                     <option value="0">学院动态</option>
+                                     <option value="1">焦点新闻</option>
+                                     <option value="2">用户管理</option>
+                                     <option value="3">专区下载</option>
+                                 </select>
+                              </div>
+                             <button class="btn btn-primary" style="margin-left:250px;margin-bottom:20px;" type="submit">确认添加</button>
+					 </form>
+			   </div>
+
+			      <div class="panel panel-default">
+                    <div class="panel-heading">
+					      <h3 class="panel-title">
+					          <i class="fa   icon-cogs"></i>
+					            栏目管理
+					      </h3>
+					 </div>
+					 <table class="table table-hover table-striped border">
                                   <thead class="top">
 								      <tr>
-								         <th>#</th>
-								         <th>图片名</th>
-								         <th>图片描述</th>
-								         <th>上传管理员</th>
-								         <th>上传时间</th>
+								         <th>栏目名称</th>
+								         <th>父级栏目</th>
+								         <th>栏目别名</th>
 								         <th>操作</th>
 								      </tr>
 								  </thead>
@@ -114,8 +116,6 @@
                                      <tr>
 								         <td>Tanmay</td>
 								         <td>Bangalore</td>
-								         <td>560001</td>
-								         <td>Tanmay</td>
 								         <td>Bangalore</td>
 								         <td class="small">
 								           <a class="btn btn-xs btn-success"><i class="icon-edit">编辑</i></a>
@@ -124,8 +124,6 @@
 								         </td>
 								      <tr>
 								         <td>Sachin</td>
-								         <td>Mumbai</td>
-								         <td>400003</td>
 								         <td>Tanmay</td>
 								         <td>Bangalore</td>
 								         <td class="small">
@@ -147,9 +145,9 @@
 					 </ul>
 
                 </div>
-
-                </div>
-            </div>
+			   </div>
+ 
+           </div>
 		</div>
 		</div>
 <script src="/Admin/Public/js/jquery.min.js"></script>

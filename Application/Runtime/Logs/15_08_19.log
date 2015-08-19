@@ -185,3 +185,140 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
 
+[ 2015-08-19T14:48:59+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Picture?describe=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2015-08-19T14:49:08+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Picture?describe=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-08-19T14:57:45+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Picture?describe=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2015-08-19T15:37:22+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 非法操作:index
+
+[ 2015-08-19T15:37:34+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2015-08-19T15:39:21+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-08-19T15:39:23+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-08-19T15:43:04+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+
+[ 2015-08-19T15:45:08+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-08-19T15:45:53+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+
+[ 2015-08-19T15:46:13+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2015-08-19T15:46:21+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2015-08-19T15:47:35+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 非法操作:index
+
+[ 2015-08-19T15:47:39+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+
+[ 2015-08-19T15:48:08+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+
+[ 2015-08-19T15:48:25+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2015-08-19T15:51:07+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-08-19T15:53:32+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2015-08-19T15:53:49+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/user?name=&password=&role=0&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2015-08-19T16:00:19+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/column
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-08-19T16:00:53+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/column
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+
+[ 2015-08-19T16:05:54+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/column
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-08-19T16:06:05+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/column
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-08-19T16:08:39+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/column
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-08-19T16:09:45+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/column
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2015-08-19T16:12:50+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/infoChange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+
+[ 2015-08-19T16:19:30+08:00 ] 127.0.0.1 /Admin/index.php/Admin/Setting/infoChange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+

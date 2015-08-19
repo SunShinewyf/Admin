@@ -23,7 +23,7 @@
            </ul>
         </div>
       	<div class="container-fluid-full">
-		<div class="row-fluid">
+		    <div class="row-fluid">
 		   <div class="slider left">
     <ul class="slide-menu">
         <li><a href=""><i class="fa icon-home"></i>首页介绍</a></li>
@@ -56,9 +56,9 @@
         <li>
           <a href=""><i class="fa icon-cogs"></i>系统管理<i class="arrow icon-double-angle-right"></i></a>
           <ul class="child-menu">
-              <li><a href=""><i class="fa icon-angle-right"></i>添加文章</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>修改文章</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>文章列表</a></li>
+              <li><a href=""><i class="fa icon-angle-right"></i>用户管理</a></li>
+              <li><a href=""><i class="fa icon-angle-right"></i>栏目管理</a></li>
+              <li><a href=""><i class="fa icon-angle-right"></i>更改密码</a></li>
           </ul>
         </li>
 
@@ -73,12 +73,12 @@
                 <div class="main">
                   <div class="panel panel-default">
                      <div class="panel-heading">
-					      <h3 class="panel-title">
-					          <i class="fa  icon-edit"></i>
-					          添加新文章
-					      </h3>
+        					      <h3 class="panel-title">
+        					          <i class="fa  icon-edit"></i>
+        					          添加新文章
+        					      </h3>
                      </div>
-					      <form class="form-horizontal" role="form">
+					           <form class="form-horizontal" role="form">
                               <div class="form-group">
                                  <label class="control-label col-sm-2 control2" for="title">*文章标题：</label>
                                  <input class="form-control control3" type="text" name="title" id="title" placeholder="请填写文章标题"/>
@@ -104,9 +104,9 @@
                                     <button class="btn btn-primary" type="submit">保存</button>
                                     <button class="btn btn-primary" type="reset">重置</button>
                               </div>
-					      </form>
-					</div>
-                </div>
+					          </form>
+					       </div>
+         </div>
 		   </div>
 		</div>
 	   </div>
