@@ -24,47 +24,48 @@
         </div>
       	<div class="container-fluid-full">
 		<div class="row-fluid">
-		   <div class="slider left">
-    <ul class="slide-menu">
-        <li><a href=""><i class="fa icon-home"></i>首页介绍</a></li>
-        <li>
-           <a href=""><i class="fa icon-picture"></i>首页大图管理<i class="arrow icon-double-angle-right"></i></a>
-           <ul class="child-menu">
-               <li><a href=""><i class="fa icon-angle-right"></i>添加图片</a></li>
-               <li><a href=""><i class="fa icon-angle-right"></i>修改图片</a></li>
-               <li><a href=""><i class="fa icon-angle-right"></i>删除图片</a></li>
-           </ul>
-        </li>
-        <li>
-          <a href=""><i class="fa icon-edit"></i>文章管理<i class="arrow icon-double-angle-right"></i></a>
-          <ul class="child-menu">
-              <li><a href=""><i class="fa icon-angle-right"></i>添加文章</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>修改文章</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>文章列表</a></li>
+		         <div id="sidebar-left" class="span2 left">
+        <div class="nav-collapse sidebar-nav">
+          <ul class="nav nav-tabs nav-stacked main-menu">
+            <li class="submenu"><a href=""><i class="fa icon-home"></i><span>首页管理</span></a></li> 
+            <li class="submenu">
+              <a class="dropmenu" href="#"><i class="fa icon-picture"></i><span>首页大图管理</span><span class="label label-important"> 3 </span></a>
+              <ul style="display:block">
+                <li><a href=""><i class="fa icon-angle-right"></i><span>添加图片</span></a></li>
+                <li><a href=""><i class="fa icon-angle-right"></i><span>图片管理</span></a></li>
+                <li><a href=""><i class="fa icon-angle-right"></i><span>修改图片</span></a></li>
+              </ul> 
+            </li>
+            <li class="submenu">
+              <a class="dropmenu" href="#"><i class="fa icon-edit"></i><span>文章管理</span><span class="label label-important"> 3 </span></a>
+              <ul>
+                <li><a  href=""><i class="fa icon-angle-right"></i><span>文章管理</span></a></li>
+                <li><a  href=""><i class="fa icon-angle-right"></i><span>添加文章</span></a></li>
+                <li><a  href=""><i class="fa icon-angle-right"></i><span>修改文章</span></a></li>
+              </ul> 
+            </li>
+            <li class="submenu">
+              <a class="dropmenu" href="#"><i class="fa icon-user"></i><span>用户管理</span><span class="label label-important"> 3 </span></a>
+              <ul>
+                <li><a  href=""><i class="fa icon-angle-right"></i><span>用户列表</span></a></li>
+                <li><a  href=""><i class="fa icon-angle-right"></i><span>用户添加</span></a></li>
+                <li><a  href=""><i class="fa icon-angle-right"></i><span>修改文章</span></a></li>
+              </ul> 
+            </li>
+
+            <li class="submenu">
+              <a class="dropmenu" href="#"><i class="fa icon-cogs"></i><span>系统管理</span><span class="label label-important"> 3 </span></a>
+              <ul>
+                <li><a href=""><i class="fa icon-angle-right"></i><span>栏目管理</span></a></li>
+                <li><a  href=""><i class="fa icon-angle-right"></i><span>管理员管理</span></a></li>
+                <li><a  href=""><i class="fa icon-angle-right"></i><span>修改密码</span></a></li>
+              </ul> 
+            </li>
+
+
           </ul>
-        </li>
-
-         <li>
-          <a href=""><i class="fa icon-edit"></i>用户管理<i class="arrow icon-double-angle-right"></i></a>
-          <ul class="child-menu">
-              <li><a href=""><i class="fa icon-angle-right"></i>添加用户</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>修改用户</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>文章列表</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <a href=""><i class="fa icon-cogs"></i>系统管理<i class="arrow icon-double-angle-right"></i></a>
-          <ul class="child-menu">
-              <li><a href=""><i class="fa icon-angle-right"></i>用户管理</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>栏目管理</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>更改密码</a></li>
-          </ul>
-        </li>
-
-    </ul>
-
-</div>
+        </div>
+      </div>
              <div class="right content">
                 <div class="right-menu">
                 	<p class="left"><i class="fa1 icon-home"></i>首页<i class="fa icon-angle-right"></i>Article</p>
@@ -170,6 +171,7 @@
 		</div>
 		<script src="/Admin/Public/js/jquery.min.js"></script>
 <script src="/Admin/Public/js/bootstrap.min.js"></script>
+<script src="/Admin/Public/js/admin.js"></script>
 
 <div class="clearfix"></div>
 <div class="footer">

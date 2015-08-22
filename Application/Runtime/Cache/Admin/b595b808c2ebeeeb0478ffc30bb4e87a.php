@@ -25,45 +25,37 @@
       	<div class="container-fluid-full">
 		<div class="row-fluid">
 		   <div class="slider left">
-    <ul class="slide-menu">
-        <li><a href=""><i class="fa icon-home"></i>首页介绍</a></li>
-        <li>
-           <a href=""><i class="fa icon-picture"></i>首页大图管理<i class="arrow icon-double-angle-right"></i></a>
+    <ul class="parent-menu">
+      <li><a href=""><i class="fa icon-home"></i>首页介绍</a></li>
+      <li><a href=""><i class="fa icon-picture"></i>首页大图管理<i class="arrow icon-double-angle-right"></i></a>
            <ul class="child-menu">
-               <li><a href=""><i class="fa icon-angle-right"></i>添加图片</a></li>
-               <li><a href=""><i class="fa icon-angle-right"></i>修改图片</a></li>
-               <li><a href=""><i class="fa icon-angle-right"></i>删除图片</a></li>
+             <li><a href=""><i class="fa icon-angle-right"></i>添加图片</a></li>
+             <li><a href=""><i class="fa icon-angle-right"></i>修改图片</a></li>
+             <li><a href=""><i class="fa icon-angle-right"></i>删除图片</a></li>
            </ul>
-        </li>
-        <li>
-          <a href=""><i class="fa icon-edit"></i>文章管理<i class="arrow icon-double-angle-right"></i></a>
+      </li>
+      <li><a href=""><i class="fa icon-edit"></i>文章管理<i class="arrow icon-double-angle-right"></i></a>
           <ul class="child-menu">
-              <li><a href=""><i class="fa icon-angle-right"></i>添加文章</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>修改文章</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>文章列表</a></li>
+            <li><a href=""><i class="fa icon-angle-right"></i>添加文章</a></li>
+            <li><a href=""><i class="fa icon-angle-right"></i>修改文章</a></li>
+            <li><a href=""><i class="fa icon-angle-right"></i>文章列表</a></a></li>
           </ul>
-        </li>
-
-         <li>
-          <a href=""><i class="fa icon-edit"></i>用户管理<i class="arrow icon-double-angle-right"></i></a>
+      </li>
+      <li><a href=""><i class="fa icon-edit"></i>用户管理<i class="arrow icon-double-angle-right"></i></a>
           <ul class="child-menu">
-              <li><a href=""><i class="fa icon-angle-right"></i>添加用户</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>修改用户</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>文章列表</a></li>
+            <li><a href=""><i class="fa icon-angle-right"></i>添加用户</a></li>
+            <li><a href=""><i class="fa icon-angle-right"></i>修改用户</a></li>
+            <li><a href=""><i class="fa icon-angle-right"></i>用户列表</a></li>
           </ul>
-        </li>
-
-        <li>
-          <a href=""><i class="fa icon-cogs"></i>系统管理<i class="arrow icon-double-angle-right"></i></a>
+      </li>
+      <li><a href=""><i class="fa icon-cogs"></i>系统管理<i class="arrow icon-double-angle-right"></i></a>
           <ul class="child-menu">
-              <li><a href=""><i class="fa icon-angle-right"></i>添加文章</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>修改文章</a></li>
-              <li><a href=""><i class="fa icon-angle-right"></i>文章列表</a></li>
+            <li><a href=""><i class="fa icon-angle-right"></i>用户管理</a></li>
+            <li><a href=""><i class="fa icon-angle-right"></i>栏目管理</a></li>
+            <li><a href=""><i class="fa icon-angle-right"></i>更改密码</a></li>
           </ul>
-        </li>
-
+      </li>
     </ul>
-
 </div>
 		   <div class="right content">
                 <div class="right-menu">
